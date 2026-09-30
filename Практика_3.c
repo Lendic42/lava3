@@ -1,7 +1,7 @@
 ﻿#define _CRT_SECURE_NO_DEPRECATE
 #include <stdio.h>
-#include <stdlib.h>
 #define D 2.54
+#include <stdlib.h>
 
 void task1(void)
 {

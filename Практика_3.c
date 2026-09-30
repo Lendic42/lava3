@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_DEPRECATE
+#define _CRT_SECURE_NO_DEPRECATE
 #include <stdio.h>
 #define D 2.54
 #include <stdlib.h>
@@ -52,16 +52,12 @@ void task3(void)
 
 void homework(void)
 {
-    float candy_price;
-    float cookie_price;
-    float apple_price;
-    float X;
-    float Y;
-    float Z;
+    float area;
+    int people;
 
-    puts("Домашнее задание, вариант 27. Введите цены за кг и количество кг конфет, печенья и яблок:");
-    scanf("%f %f %f %f %f %f", &candy_price, &cookie_price, &apple_price, &X, &Y, &Z);
-    printf("Стоимость покупки: %.2f\n", candy_price * X + cookie_price * Y + apple_price * Z);
+    puts("Домашнее задание, вариант 27. Введите площадь территории в км2 и число жителей:");
+    scanf("%f %d", &area, &people);
+    printf("Плотность населения: %.2f человек на км2\n", people / area);
 }
 
 int main(void)
